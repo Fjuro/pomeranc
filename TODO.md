@@ -1,0 +1,4 @@
+- Opravit lightGallery
+- Parsování adres (případně i automatické rozpoznávání?)
+- Lepší funkčnost seznamu alb
+- Proxy
