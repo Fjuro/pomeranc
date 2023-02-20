@@ -2,3 +2,4 @@
 - Lepší funkčnost seznamu alb (stránkování, zobrazení ve mřížce)
 - Lepší funkčnost mřížky procházení alb
 - Proxy obrázků
+- Přidat tmavý režim
