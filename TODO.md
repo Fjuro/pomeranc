@@ -1,4 +1,4 @@
-- Opravit lightGallery
-- Parsování adres (případně i automatické rozpoznávání?)
-- Lepší funkčnost seznamu alb
-- Proxy
+- Parsování adres (případně i automatické rozpoznávání?) - https://www.php.net/manual/en/function.parse-url.php
+- Lepší funkčnost seznamu alb (stránkování, zobrazení ve mřížce)
+- Lepší funkčnost mřížky procházení alb
+- Proxy obrázků
