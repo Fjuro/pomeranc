@@ -19,6 +19,7 @@ else
             </div>
         </div>
     ';
+    die();
 }
 ?>
 
