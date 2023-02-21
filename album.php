@@ -13,7 +13,7 @@ else
 {
     echo '
         <div class="alert alert-danger position-absolute top-50 start-50 translate-middle text-center" role="alert">
-            Nebyla zadána žádná URL!<br>
+            Nebyla zadána žádná adresa URL!<br>
             <div class="pt-3">
                 <a href="../" class="btn btn-danger">Domovská stránka</a>
             </div>
@@ -30,7 +30,7 @@ else
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <img src="<?php echo LOGO_PATH; ?>" alt="Logo" width="30" height="24" class="d-inline-block align-text-top pe-2">
+        <a href="/"><img src="<?php echo LOGO_PATH; ?>" alt="Logo" width="30" height="24" class="d-inline-block align-text-top pe-2"></a>
         <a class="navbar-brand" href="/"><?php echo SITE_NAME; ?></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Přepnout navigační lištu">
             <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@ else
                     <a class="nav-link" aria-current="page" href="/">Domů</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php">O projektu</a>
+                    <a class="nav-link" href="about">O projektu</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Album</a>
@@ -70,11 +70,7 @@ else
     lightGallery(document.getElementById('lightgallery'), {
         plugins: [lgZoom, lgThumbnail],
         mode: 'lg-slide',
-        thumbnail: true,
-        animateThumb: true,
-        zoomFromOrigin: true,
-        rowHeight: 180,
-        margins: 5
+        hideScrollbar: true
     });
 </script>
 

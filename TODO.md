@@ -1,5 +1,3 @@
-- Parsování adres (případně i automatické rozpoznávání?) - https://www.php.net/manual/en/function.parse-url.php
-- Lepší funkčnost seznamu alb (stránkování, zobrazení ve mřížce)
+- Lepší funkčnost seznamu alb (nekonečné načítání místo stránkování(?), zobrazení v mřížce)
 - Lepší funkčnost mřížky procházení alb
 - Proxy obrázků
-- Přidat tmavý režim
