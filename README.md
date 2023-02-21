@@ -1,4 +1,4 @@
-# Pomeranč
+# <img src="assets/img/logo.svg" height="24px" /> Pomeranč
 Alternativní frontend pro [Rajče](https://www.rajce.idnes.cz/) inspirovaný ostatními [alternativními frontendy](https://libredirect.github.io/).
 
 ## Funkce
