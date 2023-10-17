@@ -70,10 +70,16 @@ else
             echo '
                 <div class="p-3">
                     <div class="container text-center main-box border rounded pt-4 pb-1" style="max-width: 500px">
-                        <a href="../album.php?url=' . $item->link . '"><img class="rounded" height="200px" src="' . $item->image->url . '"></a>
+                        <a href="../album.php?url=' .
+                        $rssUrl . "/" .
+                        str_replace(" ", "_", trim(substr($item->title, strpos($item->title, "|") + 1))) .
+                        '"><img class="rounded" height="200px" src="' . $item->image->url . '"></a>
                             <div class="pt-3">
-                                <h5>' . $item->title . '</h5>
-                                <p><a class="btn btn-warning" href="../album.php?url=' . $item->link . '">Zobrazit album</a></p>
+                                <h5>' . trim(substr($item->title, strpos($item->title, "|") + 1)) . '</h5>
+                                <p><a class="btn btn-warning" href="../album.php?url=' .
+                                $rssUrl . "/" .
+                                str_replace(" ", "_", trim(substr($item->title, strpos($item->title, "|") + 1))) .
+                                '">Zobrazit album</a></p>
                             </div>
                         </img>
                     </div>

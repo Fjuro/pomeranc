@@ -22,7 +22,7 @@ include "includes/header.php";
                     <a class="nav-link active" aria-current="page" href="/">Domů</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about">O projektu</a>
+                    <a class="nav-link" href="about.php">O projektu</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#">Album</a>

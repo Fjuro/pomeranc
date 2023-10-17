@@ -41,7 +41,7 @@ else
                     <a class="nav-link" aria-current="page" href="/">Domů</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about">O projektu</a>
+                    <a class="nav-link" href="about.php">O projektu</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Album</a>
