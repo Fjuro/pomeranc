@@ -1,4 +1,5 @@
 # <img src="assets/img/logo.svg" height="24px" /> Pomeranč
+**[PŘESUNUTO NA CODEBERG/MOVED TO CODEBERG](https://codeberg.org/Fjuro/Pomeranc)**<br>
 Alternativní frontend pro [Rajče](https://www.rajce.idnes.cz/) inspirovaný ostatními [alternativními frontendy](https://libredirect.github.io/).
 
 ## Funkce
